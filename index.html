@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pennyBook Ledger — Offline Income, Expense & Udhaar Manager</title>
+    <meta name="description" content="pennyBook Ledger by Javed Khan Labs. Modern, 100% offline personal finance tracker with visual analytics, Udhaar credit ledger, and AES-256 encrypted backups.">
+    <link rel="canonical" href="https://javedakhan2010.github.io/pennyBook/">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="pennyBook Ledger — Your Money. Clearly Managed.">
+    <meta property="og:description" content="100% offline personal expense manager with Udhaar credit ledger, monthly budgets, and zero tracking SDKs.">
+    <meta property="og:url" content="https://javedakhan2010.github.io/pennyBook/">
+    <meta property="og:image" content="assets/img/hero_banner.png">
+    
+    <link rel="icon" type="image/png" href="assets/img/app_icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-wrap">
+            <a href="index.html" class="brand">
+                <img src="assets/img/app_icon.png" alt="pennyBook Ledger Icon" class="brand-icon">
+                <div class="brand-name">pennyBook<span>Ledger</span></div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://javedakhan2010.github.io/pennyBook-privacy-policy/" target="_blank">Privacy Policy ↗</a></li>
+            </ul>
+            <a href="#download" class="btn-primary">
+                <span>Google Play</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div>
+                <span class="pill-tag">🛡️ 100% Offline • Zero Tracking SDKs</span>
+                <h1>Your Money.<br><span class="highlight">Clearly Managed.</span></h1>
+                <p>The modern, private personal financial manager for Android. Track income, organize daily expenses, balance Udhaar debts, and control monthly budgets—with zero cloud servers or third-party ads.</p>
+                <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                    <a href="#download" class="btn-primary" style="padding: 14px 28px; font-size: 16px;">
+                        <span>Get on Google Play</span>
+                    </a>
+                    <a href="#features" class="btn-secondary" style="padding: 14px 24px; font-size: 16px;">
+                        <span>Explore Features</span>
+                    </a>
+                </div>
+                <div class="hero-badges">
+                    <div class="badge-item">🔒 AES-256 SQLCipher</div>
+                    <div class="badge-item">🤝 Udhaar Credit Ledger</div>
+                    <div class="badge-item">📊 Visual Budgets</div>
+                    <div class="badge-item">🌍 Multi-Currency</div>
+                    <div class="badge-item">✨ Zero Advertisements</div>
+                </div>
+            </div>
+            <div class="hero-img-wrap">
+                <img src="assets/img/app_preview.png" alt="pennyBook Ledger App Showcase" class="hero-preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section section-alt">
+        <div class="container">
+            <div class="section-head">
+                <h2>Designed for Complete Financial Autonomy</h2>
+                <p>Built with modern Android Jetpack Compose for speed, privacy, and seamless daily financial management.</p>
+            </div>
+
+            <div class="feature-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Income & Expense Tracking</h3>
+                    <p>Log transactions in seconds with smart categorization, payment mode tags (UPI, Cash, Card), custom notes, and automatic savings rate calculations.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Udhaar / Debt Ledger</h3>
+                    <p>Track money lent to or borrowed from friends, family, and colleagues. Monitor bank EMI schedules, settle partial amounts, and receive due-date reminders.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Budget vs. Expense Intelligence</h3>
+                    <p>Set custom monthly budgets with live spending progress bars. Analyze spending habits through interactive month-by-month financial charts.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Optional Investment Tracking</h3>
+                    <p>Seamlessly toggle investment tracking to record mutual funds, gold, stocks, and fixed deposits isolated cleanly from routine living expenses.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📄</div>
+                    <h3>CSV & PDF Statement Exports</h3>
+                    <p>Download structured CSV spreadsheets and professional PDF financial statements. Use local CSV templates with built-in duplicate detection and validation.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Encrypted Backups & Biometric Lock</h3>
+                    <p>Generate password-protected AES-256 <code>.pennybook</code> backups derived using Argon2id. Protect your ledger with Fingerprint, Face Unlock, or PIN.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Screenshots Showcase -->
+    <section id="screenshots" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h2>Explore the Interface</h2>
+                <p>Intuitive, clean, and distraction-free accounting designed around your everyday financial needs.</p>
+            </div>
+
+            <div class="screenshot-grid">
+                <div class="screenshot-card">
+                    <img src="assets/img/01_dashboard.png" alt="Financial Dashboard">
+                    <div class="screenshot-caption">
+                        <h4>Financial Dashboard</h4>
+                        <p>Complete cashflow, balance card & daily trend overview</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/02_expenses.png" alt="Smart Expense Tracking">
+                    <div class="screenshot-caption">
+                        <h4>Smart Expense Tracking</h4>
+                        <p>Fast record entry with categories, payment mode & notes</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/03_udhaar.png" alt="Udhaar & Credit Ledger">
+                    <div class="screenshot-caption">
+                        <h4>Udhaar & Credit Ledger</h4>
+                        <p>Track receivables, payables, settlements & borrower history</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/04_budgets.png" alt="Monthly Budgeting">
+                    <div class="screenshot-caption">
+                        <h4>Monthly Budgeting</h4>
+                        <p>Category-wise spending limits with real-time progress bars</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/05_analytics.png" alt="Visual Analytics">
+                    <div class="screenshot-caption">
+                        <h4>Visual Analytics</h4>
+                        <p>Budget vs expense trends and interactive breakdown charts</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/06_investments.png" alt="Wealth & Asset Tracking">
+                    <div class="screenshot-caption">
+                        <h4>Wealth & Asset Tracking</h4>
+                        <p>Monitor assets, returns, and category-wise distributions</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/07_privacy_backup.png" alt="100% Private Offline Ledger">
+                    <div class="screenshot-caption">
+                        <h4>100% Private Offline Ledger</h4>
+                        <p>Zero internet permission, local Room DB & encrypted backups</p>
+                    </div>
+                </div>
+
+                <div class="screenshot-card">
+                    <img src="assets/img/08_personalisation.png" alt="Theme & Experience Customisation">
+                    <div class="screenshot-caption">
+                        <h4>Theme & Personalisation</h4>
+                        <p>Dark/Light themes, multi-currency formatting & biometric lock</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Architecture Section -->
+    <section id="privacy" class="section section-alt">
+        <div class="container">
+            <div class="section-head">
+                <h2>Privacy Isn't a Feature. It's Our Foundation.</h2>
+                <p>Unlike traditional cloud budgeting apps, pennyBook Ledger never uploads your financial ledger to remote databases.</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🚫 Zero Internet Access</h3>
+                    <p>The application does not declare <code>android.permission.INTERNET</code>. The Android OS prevents the app from opening network sockets or uploading telemetry.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔐 SQLCipher 256-Bit Encryption</h3>
+                    <p>All database records are protected by SQLCipher 4.17.0 and hardware-backed keys managed securely inside the Android Keystore.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🛡️ Cloud Backup Exclusion</h3>
+                    <p>Explicit OS data extraction rules ensure your private SQLite database and keys are never uploaded to automated Google Drive cloud backups.</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="https://javedakhan2010.github.io/pennyBook-privacy-policy/" target="_blank" class="btn-secondary">
+                    <span>Read Full Privacy Policy & Terms ↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help & FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h2>Frequently Asked Questions</h2>
+                <p>Learn how to get the most out of pennyBook Ledger's offline tools.</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How does pennyBook Ledger protect my data offline?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        All financial entries are stored locally on your device in a private SQLite database encrypted via SQLCipher 4.17.0. The application does not request internet access, ensuring zero external data transmission.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do I back up and restore my records?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Navigate to Settings → Backup & Restore. You can create an encrypted <code>.pennybook</code> backup protected by a personal password using Argon2id and AES-256-GCM, or export an unencrypted SQLite <code>.db</code> snapshot. Files are saved directly to your chosen device folder via Android's Storage Access Framework.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I change currency and number formats?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Yes. Open Settings → Currency & Numbering. You can select your preferred ISO 4217 currency (INR, USD, EUR, GBP, AED, SAR, PKR, BDT, etc.) and toggle between Indian Numbering (Lakhs & Crores) and International Numbering (Millions & Billions). Stored records retain their exact numerical balance without accidental exchange rate conversion.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is the Udhaar Ledger?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        The Udhaar Ledger allows you to track personal debts and receivables (money lent to or borrowed from others), record partial repayments, monitor bank EMI dates, and schedule battery-friendly notification reminders.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How does CSV import and template download work?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        From Backup & Restore → Import from CSV, you can download an empty CSV template or a realistic sample CSV directly onto your device. Before importing, the app displays a full pre-import validation report with duplicate detection.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA Banner -->
+    <div id="download" class="container">
+        <div class="cta-banner">
+            <h2>Ready to Take Control of Your Finances?</h2>
+            <p>Download pennyBook Ledger today and experience modern, distraction-free expense tracking with 100% data autonomy.</p>
+            <div style="display: inline-block;">
+                <!-- Official Google Play Badge / Link Placeholder -->
+                <a href="https://play.google.com/store/apps/details?id=com.pennybook.expensetracker" target="_blank" class="btn-primary" style="padding: 16px 36px; font-size: 16px; background: #00C853; color: #0B1310 !important;">
+                    <span>Download on Google Play</span>
+                </a>
+            </div>
+            <p style="font-size: 12.5px; margin-top: 16px; opacity: 0.75;">Package: com.pennybook.expensetracker • Version 1.0.1 • Requires Android 8.0+</p>
+        </div>
+    </div>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="brand" style="margin-bottom: 14px;">
+                        <img src="assets/img/app_icon.png" alt="pennyBook Ledger" class="brand-icon">
+                        <div class="brand-name">pennyBook<span>Ledger</span></div>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-secondary); max-width: 320px;">
+                        Modern, 100% offline personal accounting and Udhaar management. Engineered for privacy by Javed Khan Labs.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Navigation</h5>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Legal & Privacy</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://javedakhan2010.github.io/pennyBook-privacy-policy/" target="_blank">Privacy Policy</a></li>
+                        <li><a href="https://javedakhan2010.github.io/pennyBook-privacy-policy/#terms" target="_blank">Terms of Service</a></li>
+                        <li><a href="#privacy">Security Overview</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Support & Contact</h5>
+                    <ul class="footer-links">
+                        <li><strong>Developer:</strong> Javed Khan Labs</li>
+                        <li><strong>Email:</strong> <a href="mailto:javed.apps.support@gmail.com">javed.apps.support@gmail.com</a></li>
+                        <li><strong>App Version:</strong> 1.0.1 (v2)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 Javed Khan Labs. All rights reserved. pennyBook Ledger is a trademark of Javed Khan Labs.</div>
+                <div>Designed for English-First International Launch</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

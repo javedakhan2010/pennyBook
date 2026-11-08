@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://javedakhan2010.github.io/pennyBook/sitemap.xml
